@@ -137,7 +137,7 @@ cd libraries
 ./gradlew build install
 mvn install
 ```
-- after you have all above done without errors, got to kotlin-statelss-properties project folder do:
+- after you have all above done without errors, go to kotlin-statelss-properties project folder do:
 ```
 ./gradlew clean build
 ./gradlew execute
