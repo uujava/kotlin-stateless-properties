@@ -125,13 +125,12 @@ Usage
 
 Build kotlinc with new POC feature implementation:
 - checkout Kotlin branch
-- build and install Kotlin artifacts in local repo as described in kotlin github readme in kotlin folder
+- build and install Kotlin artifacts in local repo as described in kotlin github readme
 ```
 ant -f update_dependencies.xml
 ant -f build.xml
 cd libraries
-./gradlew build install -Doverwrite.output=true # this will fail as stdlib changed
-./gradlew clean build install # this should compile
+./gradlew build install
 mvn install
 ```
 - after got new compiler got to kotlin-statelss-properties folder do:
