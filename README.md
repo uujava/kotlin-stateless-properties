@@ -124,7 +124,11 @@ Total time: 11.828 secs
 Usage
 
 Build kotlinc with new POC feature implementation:
-- checkout Kotlin branch
+- clone kotlin fork https://github.com/uujava/kotlin.git
+- checkout feature_stateless_properties branch
+```
+git checkout feature_stateless_properties
+```
 - build and install Kotlin artifacts in local repo as described in kotlin github readme
 ```
 ant -f update_dependencies.xml
