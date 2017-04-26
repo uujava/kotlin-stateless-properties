@@ -1,5 +1,5 @@
 # kotlin-stateless-properties
-Proof of concept for stateless properties in kotlin
+Proof of concept for stateless properties in Kotlin
 
 Proposed optimization:
 - Delegate to statically initialized fields if delegate object doesn't have state associated with an object instance.
@@ -123,13 +123,13 @@ Total time: 11.828 secs
 
 Usage
 
-Build kotlinc with new POC feature implementation:
-- clone kotlin fork https://github.com/uujava/kotlin.git
+Build Kotlin with new POC feature implementation:
+- clone somethere Kotlin fork https://github.com/uujava/kotlin.git
 - checkout feature_stateless_properties branch
 ```
 git checkout feature_stateless_properties
 ```
-- build and install Kotlin artifacts in local repo as described in kotlin github readme
+- build and install Kotlin artifacts in local repo as described in Kotlin github readme
 ```
 ant -f update_dependencies.xml
 ant -f build.xml
@@ -137,7 +137,7 @@ cd libraries
 ./gradlew build install
 mvn install
 ```
-- after got new compiler got to kotlin-statelss-properties folder do:
+- after you have all above done without errors, got to kotlin-statelss-properties project folder do:
 ```
 ./gradlew clean build
 ./gradlew execute
